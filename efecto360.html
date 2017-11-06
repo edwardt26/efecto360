@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<HEAD>
+	<name>Prueba con efecto 360</name>
+	<style type="text/css">
+		body {
+			background-color: #BBDEFB	
+		}
+		ul {
+			width:700px;
+			margin: 0 auto;
+			margin-top: 250px;
+		}
+		ul li{
+			list-style: none;
+		}
+		ul li img{
+			float: center;
+			width: 150px;
+			height: 150px;
+			-webkit-transition: all .5s ease;
+			opacity: .5;
+		}
+		ul li img:hover{
+			opacity: 1;
+			-webkit-transform:rotate(360deg);
+
+		}
+	</style>
+</HEAD>
+<BODY>
+	
+	<ul>
+		<li><img src="prueba.jpeg"></li>
+		<li><img src="prueba2.jpeg"></li>
+	</ul>
+</BODY>
